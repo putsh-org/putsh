@@ -1,0 +1,131 @@
+---
+putsh:
+  specification: PUTSH-0000
+  version: 0.1.0
+  status: draft
+  language: en
+  canonical: true
+
+title: PUTSH — Introduction
+---
+
+# PUTSH — An Open Protocol for Trustworthy Human–AI Collaboration
+
+## Abstract
+
+PUTSH is an open protocol for trustworthy collaboration between humans
+and artificial intelligence.
+
+PUTSH defines a common framework for:
+
+- representing knowledge;
+- identifying actors;
+- assigning work;
+- coordinating agents;
+- validating results;
+- preserving provenance;
+- enforcing governance;
+- separating experimentation from production.
+
+PUTSH is independent of any particular artificial intelligence model,
+provider, programming language, operating system, or cloud platform.
+
+An implementation MAY run entirely locally.
+
+An implementation MAY use cloud services.
+
+An implementation MAY combine multiple AI models.
+
+The protocol remains the same.
+
+## Design Principle
+
+PUTSH separates specification from implementation.
+
+The PUTSH Specifications define the protocol.
+
+Implementations provide executable software.
+
+No implementation is authoritative over the specification.
+
+## Scope
+
+PUTSH is designed for systems in which humans and artificial agents
+collaborate over extended periods of time.
+
+The protocol supports:
+
+- individual users;
+- communities;
+- research laboratories;
+- organizations;
+- companies;
+- public-interest projects;
+- autonomous software agents.
+
+## Non-Goals
+
+PUTSH does not define:
+
+- a foundation AI model;
+- a proprietary AI service;
+- a mandatory cloud infrastructure;
+- a single user interface;
+- a single programming language;
+- a single economic model.
+
+## Core Properties
+
+A conforming PUTSH system SHOULD provide:
+
+1. Human governance.
+2. Explicit agent identity.
+3. Verifiable provenance.
+4. Structured knowledge.
+5. Task traceability.
+6. Permission control.
+7. Separation of environments.
+8. Reversible changes.
+9. Auditable history.
+10. Provider independence.
+
+## Normative Language
+
+The key words MUST, MUST NOT, REQUIRED, SHALL, SHALL NOT,
+SHOULD, SHOULD NOT, RECOMMENDED, MAY, and OPTIONAL are to be
+interpreted as normative requirements.
+
+## Versioning
+
+PUTSH specifications use semantic versioning.
+
+Breaking protocol changes require a major version.
+
+Backward-compatible additions require a minor version.
+
+Editorial corrections require a patch version.
+
+## Authority
+
+The canonical version of a PUTSH specification is the version
+published by the PUTSH Foundation through its designated
+publication mechanism.
+
+## Security Principle
+
+No agent, plugin, model, workflow, or implementation may override
+the PUTSH Constitution.
+
+Constitutional authority precedes operational authority.
+
+## Foundation
+
+PUTSH is intended to operate as an open technological foundation
+whose purpose is to increase humanity's capacity to understand,
+coordinate and solve problems of public interest.
+
+The protocol itself does not determine which problems humanity
+should solve.
+
+It provides infrastructure through which humans and agents may
+address them responsibly.
